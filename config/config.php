@@ -17,7 +17,7 @@ ini_set( "display_errors" , 1 ); error_reporting(E_ALL); // エラーを表示�
 //baseとなるトップディレクトリ
 define( "_BASE_DIRECTORY" , "/" );
 //アプリケーションのroot
-define( "_ROOT_DIR" , "/Users/kazuya/Desktop/www/" );
+define( "_ROOT_DIR" , "/Users/kazuya/sites/framework_cardreader/" );
 //設定ファイル格納用のディレクトリ
 define( "_CONFIG_DIR" , _ROOT_DIR."config/" );
 //コントローラのディレクトリ
