@@ -16,8 +16,8 @@ function Process( $action , &$_conn , &$_smarty , &$_global ){
       //strtolower( $_SERVER['HTTP_X_REQUESTED_WITH'] ) == 'xmlhttprequest' && これやるなら、まず値がセットされているかどうかの確認が必須
       if( isset( $_POST["password"] ) && isset( $_POST["username"] ) ){
         //本来ならここでデータベースに接続して、認証の処理が必要。今は、ひとまず決めうちで記入している
-        $ds_username = "design";
-        $ds_password = "ds_master";
+        $ds_username = "yamada";
+        $ds_password = "yamada";
 
         //postデータを格納
         $input_username = $_POST["username"];
